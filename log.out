@@ -1,0 +1,2018 @@
+[07 Feb 2018 19:50:52] - processViewSeatPlanResult END
+[07 Feb 2018 19:50:52] - displayPLSHomePage START
+[07 Feb 2018 19:50:52] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 19:50:52] - scanAndValidateIntInput START
+[07 Feb 2018 19:50:52] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 19:50:53] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 19:50:53] - scanAndValidateIntInput END
+[07 Feb 2018 19:50:53] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 19:50:53] - displayPLSHomePage END
+[07 Feb 2018 19:50:53] - processMainMenuOption START
+[07 Feb 2018 19:50:53] - processMainMenuOption varable in_mainMenuOption: 3
+[07 Feb 2018 19:50:53] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 19:50:53] - processMainMenuOption Calling method homePageUI.displayLogout()
+[07 Feb 2018 19:50:53] - processMainMenuOption END
+[07 Feb 2018 19:51:21] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 19:51:21] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 19:51:22] - displayWelcomePage END
+[07 Feb 2018 19:51:22] - displayLoginPage START
+[07 Feb 2018 19:51:22] - displayLoginPage Scanning username
+[07 Feb 2018 19:51:25] - displayLoginPage Variable inUsername = abe.das
+[07 Feb 2018 19:51:25] - displayLoginPage Scanning password
+[07 Feb 2018 19:51:26] - displayLoginPage Variable inPassword = adwwa
+[07 Feb 2018 19:51:26] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 19:51:26] - displayLoginPage END
+[07 Feb 2018 19:51:26] - processLoginPage START
+[07 Feb 2018 19:51:26] - processLoginPage Login failed!
+[07 Feb 2018 19:51:26] - processLoginPage Attempt(s): 1/3
+[07 Feb 2018 19:51:26] - displayLoginPage START
+[07 Feb 2018 19:51:26] - displayLoginPage Scanning username
+[07 Feb 2018 19:51:29] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 19:51:29] - displayLoginPage Scanning password
+[07 Feb 2018 19:51:32] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 19:51:32] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 19:51:32] - displayLoginPage END
+[07 Feb 2018 19:51:32] - processLoginPage START
+[07 Feb 2018 19:51:32] - displayPLSHomePage START
+[07 Feb 2018 19:51:32] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 19:51:32] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:32] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 19:51:33] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 19:51:33] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:33] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 19:51:33] - displayPLSHomePage END
+[07 Feb 2018 19:51:33] - processMainMenuOption START
+[07 Feb 2018 19:51:33] - processMainMenuOption varable in_mainMenuOption: 1
+[07 Feb 2018 19:51:33] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 19:51:33] - processMainMenuOption Calling method searchPageUI.displaySearchPage()
+[07 Feb 2018 19:51:33] - processMainMenuOption END
+[07 Feb 2018 19:51:33] - displaySearchPage START
+[07 Feb 2018 19:51:33] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 19:51:33] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:33] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 19:51:35] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 19:51:35] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:35] - displaySearchPage variable in_searchPageOption = 1
+[07 Feb 2018 19:51:35] - processSearchPageOption START
+[07 Feb 2018 19:51:35] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeID(userRec)
+[07 Feb 2018 19:51:35] - processSearchPageOption END
+[07 Feb 2018 19:51:35] - displaySearchByEmployeeID START
+[07 Feb 2018 19:51:35] - displaySearchByEmployeeID Calling method: utilityClass.scanAndValidateIntInput(999999)
+[07 Feb 2018 19:51:35] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:35] - scanAndValidateIntInput Variable maxChoice = 999999
+[07 Feb 2018 19:51:36] - scanAndValidateIntInput number to return: 999999
+[07 Feb 2018 19:51:36] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:36] - displaySearchByEmployeeID variable in_empIDToSearch = 121
+[07 Feb 2018 19:51:36] - displaySearchByEmployeeID Calling method: searchPageManager.searchByEmployeeID(userRec, in_empIDToSearch)
+[07 Feb 2018 19:51:36] - displaySearchByEmployeeID END
+[07 Feb 2018 19:51:36] - searchByEmployeeID START
+[07 Feb 2018 19:51:37] - displaySearchResult START
+[07 Feb 2018 19:51:37] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 19:51:37] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:37] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 19:51:39] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 19:51:39] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:39] - displaySearchResult variable in_searchResultAction = 2
+[07 Feb 2018 19:51:39] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 19:51:39] - displaySearchResult END
+[07 Feb 2018 19:51:39] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 19:51:39] - processSearchByEmployeeIDResultAction Calling method: homePageUI.displayPLSHomePage(userRec)
+[07 Feb 2018 19:51:39] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 19:51:39] - displayPLSHomePage START
+[07 Feb 2018 19:51:39] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 19:51:39] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:39] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 19:51:40] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 19:51:40] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:40] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 19:51:40] - displayPLSHomePage END
+[07 Feb 2018 19:51:40] - processMainMenuOption START
+[07 Feb 2018 19:51:40] - processMainMenuOption varable in_mainMenuOption: 1
+[07 Feb 2018 19:51:40] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 19:51:40] - processMainMenuOption Calling method searchPageUI.displaySearchPage()
+[07 Feb 2018 19:51:40] - processMainMenuOption END
+[07 Feb 2018 19:51:40] - displaySearchPage START
+[07 Feb 2018 19:51:40] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 19:51:40] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:40] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 19:51:43] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 19:51:43] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:43] - displaySearchPage variable in_searchPageOption = 2
+[07 Feb 2018 19:51:43] - processSearchPageOption START
+[07 Feb 2018 19:51:43] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeName(userRec)
+[07 Feb 2018 19:51:43] - processSearchPageOption END
+[07 Feb 2018 19:51:43] - displaySearchByEmployeeName START
+[07 Feb 2018 19:51:43] - displaySearchByEmployeeName Scanning Employee Name to search
+[07 Feb 2018 19:51:45] - displaySearchByEmployeeName variable in_empNameToSearch = abe
+[07 Feb 2018 19:51:45] - displaySearchByEmployeeName Calling method: searchPageManager.searchByEmployeeName(userRec, in_empNameToSearch)
+[07 Feb 2018 19:51:45] - displaySearchByEmployeeName END
+[07 Feb 2018 19:51:45] - searchByEmployeeName START
+[07 Feb 2018 19:51:45] - searchByEmployeeName Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:45] - searchByEmployeeName Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:45] - searchByEmployeeName Calling method: searchPageUI.displaySearchResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 19:51:45] - searchByEmployeeName END
+[07 Feb 2018 19:51:45] - displaySearchResult START
+[07 Feb 2018 19:51:45] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 19:51:45] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:45] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 19:51:48] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 19:51:48] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:48] - displaySearchResult variable in_searchResultAction = 1
+[07 Feb 2018 19:51:48] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 19:51:48] - displaySearchResult END
+[07 Feb 2018 19:51:48] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 19:51:48] - processSearchByEmployeeIDResultAction Calling method: searchPageUI.displaySearchPage(userRec)
+[07 Feb 2018 19:51:48] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 19:51:48] - displaySearchPage START
+[07 Feb 2018 19:51:48] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 19:51:48] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:48] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 19:51:50] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 19:51:50] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:50] - displaySearchPage variable in_searchPageOption = 3
+[07 Feb 2018 19:51:50] - processSearchPageOption START
+[07 Feb 2018 19:51:50] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeProject(userRec)
+[07 Feb 2018 19:51:50] - processSearchPageOption END
+[07 Feb 2018 19:51:50] - displaySearchByEmployeeProject START
+[07 Feb 2018 19:51:50] - displaySearchByEmployeeProject Scanning Employee Project to search
+[07 Feb 2018 19:51:52] - displaySearchByEmployeeProject variable in_empProjToSearch = snapp
+[07 Feb 2018 19:51:52] - displaySearchByEmployeeProject Calling method: searchPageManager.searchByEmployeeProj(userRec, in_empProjToSearch)
+[07 Feb 2018 19:51:52] - displaySearchByEmployeeProject END
+[07 Feb 2018 19:51:52] - searchByEmployeeProj START
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:51:52] - searchByEmployeeProj Calling method: searchPageUI.displaySearchResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 19:51:52] - searchByEmployeeProj END
+[07 Feb 2018 19:51:52] - displaySearchResult START
+[07 Feb 2018 19:51:52] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 19:51:52] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:52] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 19:51:54] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 19:51:54] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:54] - displaySearchResult variable in_searchResultAction = 2
+[07 Feb 2018 19:51:54] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 19:51:54] - displaySearchResult END
+[07 Feb 2018 19:51:54] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 19:51:54] - processSearchByEmployeeIDResultAction Calling method: homePageUI.displayPLSHomePage(userRec)
+[07 Feb 2018 19:51:54] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 19:51:54] - displayPLSHomePage START
+[07 Feb 2018 19:51:54] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 19:51:54] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:54] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 19:51:55] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 19:51:55] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:55] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 19:51:55] - displayPLSHomePage END
+[07 Feb 2018 19:51:55] - processMainMenuOption START
+[07 Feb 2018 19:51:55] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 19:51:55] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 19:51:55] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 19:51:55] - processMainMenuOption END
+[07 Feb 2018 19:51:55] - displayViewSeatplanMenu START
+[07 Feb 2018 19:51:55] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 19:51:55] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:55] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 19:51:57] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 19:51:57] - scanAndValidateIntInput END
+[07 Feb 2018 19:51:57] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 19:51:57] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 19:51:57] - displayViewSeatplanMenu END
+[07 Feb 2018 19:51:57] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 19:51:57] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 19:51:57] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 19:51:57] - displayViewSeatPlanByLocation START
+[07 Feb 2018 19:51:57] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 19:51:59] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 19:51:59] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 19:51:59] - scanAndValidateIntInput START
+[07 Feb 2018 19:51:59] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 19:52:00] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 19:52:00] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:00] - displayViewSeatPlanByLocation variable in_floorLevel = 3
+[07 Feb 2018 19:52:00] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 19:52:00] - displayViewSeatPlanByLocation END
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation START
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:00] - displayViewSeatPlanResult START
+[07 Feb 2018 19:52:00] - scanAndValidateIntInput START
+[07 Feb 2018 19:52:00] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 19:52:02] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 19:52:02] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:02] - displayViewSeatPlanResult Variable in_viewSeatPlanResult = 1
+[07 Feb 2018 19:52:02] - displayViewSeatPlanResult END
+[07 Feb 2018 19:52:02] - displayViewSeatPlanResult Calling method: viewSeatPlanPageManager.processViewSeatPlanResult(userRec, in_viewSeatPlanResult)
+[07 Feb 2018 19:52:02] - processViewSeatPlanResult START
+[07 Feb 2018 19:52:02] - processViewSeatPlanResult Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 19:52:02] - processViewSeatPlanResult END
+[07 Feb 2018 19:52:02] - displayViewSeatplanMenu START
+[07 Feb 2018 19:52:02] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 19:52:02] - scanAndValidateIntInput START
+[07 Feb 2018 19:52:02] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 19:52:03] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 19:52:03] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:03] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 2
+[07 Feb 2018 19:52:03] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 19:52:03] - displayViewSeatplanMenu END
+[07 Feb 2018 19:52:03] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 19:52:03] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByQuadrant(userRec)
+[07 Feb 2018 19:52:03] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 19:52:03] - displayViewSeatPlanByQuadrant START
+[07 Feb 2018 19:52:03] - displayViewSeatPlanByQuadrant Scanning Location to search
+[07 Feb 2018 19:52:05] - displayViewSeatPlanByQuadrant Scanning Floor to search
+[07 Feb 2018 19:52:05] - scanAndValidateIntInput START
+[07 Feb 2018 19:52:05] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 19:52:07] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 19:52:07] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:08] - displayViewSeatPlanByQuadrant Calling method: viewSeatPlanPageManager.processViewSeatPlanByQuadrant(userRec, in_location, in_floorLevel, in_quadrant)
+[07 Feb 2018 19:52:08] - displayViewSeatPlanByQuadrant END
+[07 Feb 2018 19:52:08] - processViewSeatPlanByQuadrant START
+[07 Feb 2018 19:52:08] - processViewSeatPlanByQuadrant Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:08] - processViewSeatPlanByQuadrant Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:08] - processViewSeatPlanByQuadrant Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:08] - processViewSeatPlanByQuadrant Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 19:52:08] - displayViewSeatPlanResult START
+[07 Feb 2018 19:52:08] - scanAndValidateIntInput START
+[07 Feb 2018 19:52:08] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 19:52:10] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 19:52:10] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:10] - displayViewSeatPlanResult Variable in_viewSeatPlanResult = 2
+[07 Feb 2018 19:52:10] - displayViewSeatPlanResult END
+[07 Feb 2018 19:52:10] - displayViewSeatPlanResult Calling method: viewSeatPlanPageManager.processViewSeatPlanResult(userRec, in_viewSeatPlanResult)
+[07 Feb 2018 19:52:10] - processViewSeatPlanResult START
+[07 Feb 2018 19:52:10] - processViewSeatPlanResult Calling method homePageUI.displayPLSHomePage(userRec)
+[07 Feb 2018 19:52:10] - processViewSeatPlanResult END
+[07 Feb 2018 19:52:10] - displayPLSHomePage START
+[07 Feb 2018 19:52:10] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 19:52:10] - scanAndValidateIntInput START
+[07 Feb 2018 19:52:10] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 19:52:19] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 19:52:19] - scanAndValidateIntInput END
+[07 Feb 2018 19:52:19] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 19:52:19] - displayPLSHomePage END
+[07 Feb 2018 19:52:19] - processMainMenuOption START
+[07 Feb 2018 19:52:19] - processMainMenuOption varable in_mainMenuOption: 3
+[07 Feb 2018 19:52:19] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 19:52:19] - processMainMenuOption Calling method homePageUI.displayLogout()
+[07 Feb 2018 19:52:19] - processMainMenuOption END
+[07 Feb 2018 20:04:23] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 20:04:23] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 20:04:24] - displayWelcomePage END
+[07 Feb 2018 20:04:24] - displayLoginPage START
+[07 Feb 2018 20:04:24] - displayLoginPage Scanning username
+[07 Feb 2018 20:04:28] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 20:04:28] - displayLoginPage Scanning password
+[07 Feb 2018 20:04:31] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 20:04:31] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 20:04:31] - displayLoginPage END
+[07 Feb 2018 20:04:31] - processLoginPage START
+[07 Feb 2018 20:04:31] - getAllUsersRecList START
+[07 Feb 2018 20:04:31] - connect START
+[07 Feb 2018 20:04:31] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:04:31] - connect Variable user = newuser
+[07 Feb 2018 20:04:31] - connect Variable password = password123
+[07 Feb 2018 20:04:31] - connect END
+[07 Feb 2018 20:04:31] - connect Return conn
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 20:04:31] - getAllUsersRecList END
+[07 Feb 2018 20:04:31] - displayPLSHomePage START
+[07 Feb 2018 20:04:31] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:04:31] - scanAndValidateIntInput START
+[07 Feb 2018 20:04:31] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:04:33] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:04:33] - scanAndValidateIntInput END
+[07 Feb 2018 20:04:33] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:04:33] - displayPLSHomePage END
+[07 Feb 2018 20:04:33] - processMainMenuOption START
+[07 Feb 2018 20:04:33] - processMainMenuOption varable in_mainMenuOption: 1
+[07 Feb 2018 20:04:33] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:04:33] - processMainMenuOption Calling method searchPageUI.displaySearchPage()
+[07 Feb 2018 20:04:33] - processMainMenuOption END
+[07 Feb 2018 20:04:33] - displaySearchPage START
+[07 Feb 2018 20:04:33] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:04:33] - scanAndValidateIntInput START
+[07 Feb 2018 20:04:33] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:04:35] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:04:35] - scanAndValidateIntInput END
+[07 Feb 2018 20:04:35] - displaySearchPage variable in_searchPageOption = 1
+[07 Feb 2018 20:04:35] - processSearchPageOption START
+[07 Feb 2018 20:04:35] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeID(userRec)
+[07 Feb 2018 20:04:35] - processSearchPageOption END
+[07 Feb 2018 20:04:35] - displaySearchByEmployeeID START
+[07 Feb 2018 20:04:35] - displaySearchByEmployeeID Calling method: utilityClass.scanAndValidateIntInput(999999)
+[07 Feb 2018 20:04:35] - scanAndValidateIntInput START
+[07 Feb 2018 20:04:35] - scanAndValidateIntInput Variable maxChoice = 999999
+[07 Feb 2018 20:04:53] - scanAndValidateIntInput number to return: 999999
+[07 Feb 2018 20:04:53] - scanAndValidateIntInput END
+[07 Feb 2018 20:04:53] - displaySearchByEmployeeID variable in_empIDToSearch = 1
+[07 Feb 2018 20:04:53] - displaySearchByEmployeeID Calling method: searchPageManager.searchByEmployeeID(userRec, in_empIDToSearch)
+[07 Feb 2018 20:04:53] - displaySearchByEmployeeID END
+[07 Feb 2018 20:04:53] - searchByEmployeeID START
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:04:53] - connect START
+[07 Feb 2018 20:04:53] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:04:53] - connect Variable user = newuser
+[07 Feb 2018 20:04:53] - connect Variable password = password123
+[07 Feb 2018 20:04:53] - connect END
+[07 Feb 2018 20:04:53] - connect Return conn
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:04:53] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:04:53] - displaySearchResult START
+[07 Feb 2018 20:04:53] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 20:04:53] - scanAndValidateIntInput START
+[07 Feb 2018 20:04:53] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 20:05:10] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 20:05:10] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:10] - displaySearchResult variable in_searchResultAction = 1
+[07 Feb 2018 20:05:10] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 20:05:10] - displaySearchResult END
+[07 Feb 2018 20:05:10] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 20:05:10] - processSearchByEmployeeIDResultAction Calling method: searchPageUI.displaySearchPage(userRec)
+[07 Feb 2018 20:05:10] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 20:05:10] - displaySearchPage START
+[07 Feb 2018 20:05:10] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:05:10] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:10] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:05:12] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:05:12] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:12] - displaySearchPage variable in_searchPageOption = 1
+[07 Feb 2018 20:05:12] - processSearchPageOption START
+[07 Feb 2018 20:05:12] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeID(userRec)
+[07 Feb 2018 20:05:12] - processSearchPageOption END
+[07 Feb 2018 20:05:12] - displaySearchByEmployeeID START
+[07 Feb 2018 20:05:12] - displaySearchByEmployeeID Calling method: utilityClass.scanAndValidateIntInput(999999)
+[07 Feb 2018 20:05:12] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:12] - scanAndValidateIntInput Variable maxChoice = 999999
+[07 Feb 2018 20:05:15] - scanAndValidateIntInput number to return: 999999
+[07 Feb 2018 20:05:15] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:15] - displaySearchByEmployeeID variable in_empIDToSearch = 333333
+[07 Feb 2018 20:05:15] - displaySearchByEmployeeID Calling method: searchPageManager.searchByEmployeeID(userRec, in_empIDToSearch)
+[07 Feb 2018 20:05:15] - displaySearchByEmployeeID END
+[07 Feb 2018 20:05:15] - searchByEmployeeID START
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:05:15] - connect START
+[07 Feb 2018 20:05:15] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:05:15] - connect Variable user = newuser
+[07 Feb 2018 20:05:15] - connect Variable password = password123
+[07 Feb 2018 20:05:15] - connect END
+[07 Feb 2018 20:05:15] - connect Return conn
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:05:15] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:05:15] - displaySearchResult START
+[07 Feb 2018 20:05:15] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 20:05:15] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:15] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 20:05:20] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 20:05:20] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:20] - displaySearchResult variable in_searchResultAction = 2
+[07 Feb 2018 20:05:20] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 20:05:20] - displaySearchResult END
+[07 Feb 2018 20:05:20] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 20:05:20] - processSearchByEmployeeIDResultAction Calling method: homePageUI.displayPLSHomePage(userRec)
+[07 Feb 2018 20:05:20] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 20:05:20] - displayPLSHomePage START
+[07 Feb 2018 20:05:20] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:05:20] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:20] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:05:22] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:05:22] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:22] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:05:22] - displayPLSHomePage END
+[07 Feb 2018 20:05:22] - processMainMenuOption START
+[07 Feb 2018 20:05:22] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 20:05:22] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:05:22] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 20:05:22] - processMainMenuOption END
+[07 Feb 2018 20:05:22] - displayViewSeatplanMenu START
+[07 Feb 2018 20:05:22] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:05:22] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:22] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:05:23] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:05:23] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:23] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 20:05:23] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 20:05:23] - displayViewSeatplanMenu END
+[07 Feb 2018 20:05:23] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 20:05:23] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 20:05:23] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 20:05:23] - displayViewSeatPlanByLocation START
+[07 Feb 2018 20:05:23] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 20:05:25] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 20:05:25] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 20:05:25] - scanAndValidateIntInput START
+[07 Feb 2018 20:05:25] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 20:05:26] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 20:05:26] - scanAndValidateIntInput END
+[07 Feb 2018 20:05:26] - displayViewSeatPlanByLocation variable in_floorLevel = 2
+[07 Feb 2018 20:05:26] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 20:05:26] - displayViewSeatPlanByLocation END
+[07 Feb 2018 20:05:26] - processViewSeatPlanByLocation START
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:05:26] - connect START
+[07 Feb 2018 20:05:26] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:05:26] - connect Variable user = newuser
+[07 Feb 2018 20:05:26] - connect Variable password = password123
+[07 Feb 2018 20:05:26] - connect END
+[07 Feb 2018 20:05:26] - connect Return conn
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:05:26] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:05:26] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 20:05:26] - processViewSeatPlanByLocation END
+[07 Feb 2018 20:05:26] - displayViewSeatPlanResult START
+[07 Feb 2018 20:05:26] - processMainMenuOption -=Error encountered=-
+[07 Feb 2018 20:05:26] - processMainMenuOption Index: 0, Size: 0
+[07 Feb 2018 20:05:26] - displaySearchPage Calling method: searchPageManager.processSearchPageOption(userRec, in_searchPageOption)
+[07 Feb 2018 20:05:26] - displaySearchPage Calling method: searchPageManager.processSearchPageOption(userRec, in_searchPageOption)
+[07 Feb 2018 20:07:01] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 20:07:01] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 20:07:03] - displayWelcomePage END
+[07 Feb 2018 20:07:03] - displayLoginPage START
+[07 Feb 2018 20:07:03] - displayLoginPage Scanning username
+[07 Feb 2018 20:07:06] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 20:07:06] - displayLoginPage Scanning password
+[07 Feb 2018 20:07:09] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 20:07:09] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 20:07:09] - displayLoginPage END
+[07 Feb 2018 20:07:09] - processLoginPage START
+[07 Feb 2018 20:07:09] - getAllUsersRecList START
+[07 Feb 2018 20:07:09] - connect START
+[07 Feb 2018 20:07:09] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:07:09] - connect Variable user = newuser
+[07 Feb 2018 20:07:09] - connect Variable password = password123
+[07 Feb 2018 20:07:10] - connect END
+[07 Feb 2018 20:07:10] - connect Return conn
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 20:07:10] - getAllUsersRecList END
+[07 Feb 2018 20:07:10] - displayPLSHomePage START
+[07 Feb 2018 20:07:10] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:07:10] - scanAndValidateIntInput START
+[07 Feb 2018 20:07:10] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:07:12] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:07:12] - scanAndValidateIntInput END
+[07 Feb 2018 20:07:12] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:07:12] - displayPLSHomePage END
+[07 Feb 2018 20:07:12] - processMainMenuOption START
+[07 Feb 2018 20:07:12] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 20:07:12] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:07:12] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 20:07:12] - processMainMenuOption END
+[07 Feb 2018 20:07:12] - displayViewSeatplanMenu START
+[07 Feb 2018 20:07:12] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:07:12] - scanAndValidateIntInput START
+[07 Feb 2018 20:07:12] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:07:13] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:07:13] - scanAndValidateIntInput END
+[07 Feb 2018 20:07:13] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 20:07:13] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 20:07:13] - displayViewSeatplanMenu END
+[07 Feb 2018 20:07:13] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 20:07:13] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 20:07:13] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 20:07:13] - displayViewSeatPlanByLocation START
+[07 Feb 2018 20:07:13] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 20:07:14] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 20:07:14] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 20:07:14] - scanAndValidateIntInput START
+[07 Feb 2018 20:07:14] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 20:07:16] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 20:07:16] - scanAndValidateIntInput END
+[07 Feb 2018 20:07:16] - displayViewSeatPlanByLocation variable in_floorLevel = 3
+[07 Feb 2018 20:07:16] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 20:07:16] - displayViewSeatPlanByLocation END
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation START
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:07:16] - connect START
+[07 Feb 2018 20:07:16] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:07:16] - connect Variable user = newuser
+[07 Feb 2018 20:07:16] - connect Variable password = password123
+[07 Feb 2018 20:07:16] - connect END
+[07 Feb 2018 20:07:16] - connect Return conn
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:07:16] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 20:07:16] - processViewSeatPlanByLocation END
+[07 Feb 2018 20:07:16] - displayViewSeatPlanResult START
+[07 Feb 2018 20:07:16] - scanAndValidateIntInput START
+[07 Feb 2018 20:07:16] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 20:24:56] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 20:24:56] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 20:29:28] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 20:29:28] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 20:29:29] - displayWelcomePage END
+[07 Feb 2018 20:29:29] - displayLoginPage START
+[07 Feb 2018 20:29:29] - displayLoginPage Scanning username
+[07 Feb 2018 20:29:31] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 20:29:31] - displayLoginPage Scanning password
+[07 Feb 2018 20:29:35] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 20:29:35] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 20:29:35] - displayLoginPage END
+[07 Feb 2018 20:29:35] - processLoginPage START
+[07 Feb 2018 20:29:35] - getAllUsersRecList START
+[07 Feb 2018 20:29:35] - connect START
+[07 Feb 2018 20:29:35] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:29:35] - connect Variable user = newuser
+[07 Feb 2018 20:29:35] - connect Variable password = password123
+[07 Feb 2018 20:29:36] - connect END
+[07 Feb 2018 20:29:36] - connect Return conn
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 20:29:36] - getAllUsersRecList END
+[07 Feb 2018 20:29:36] - displayPLSHomePage START
+[07 Feb 2018 20:29:36] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:29:36] - scanAndValidateIntInput START
+[07 Feb 2018 20:29:36] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:29:41] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:29:41] - scanAndValidateIntInput END
+[07 Feb 2018 20:29:41] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:29:41] - displayPLSHomePage END
+[07 Feb 2018 20:29:41] - processMainMenuOption START
+[07 Feb 2018 20:29:41] - processMainMenuOption varable in_mainMenuOption: 3
+[07 Feb 2018 20:29:41] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:29:41] - processMainMenuOption Calling method homePageUI.displayLogout()
+[07 Feb 2018 20:29:41] - processMainMenuOption END
+[07 Feb 2018 20:30:25] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 20:30:25] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 20:30:27] - displayWelcomePage END
+[07 Feb 2018 20:30:27] - displayLoginPage START
+[07 Feb 2018 20:30:27] - displayLoginPage Scanning username
+[07 Feb 2018 20:30:29] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 20:30:29] - displayLoginPage Scanning password
+[07 Feb 2018 20:30:32] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 20:30:32] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 20:30:32] - displayLoginPage END
+[07 Feb 2018 20:30:32] - processLoginPage START
+[07 Feb 2018 20:30:32] - getAllUsersRecList START
+[07 Feb 2018 20:30:32] - connect START
+[07 Feb 2018 20:30:32] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:30:32] - connect Variable user = newuser
+[07 Feb 2018 20:30:32] - connect Variable password = password123
+[07 Feb 2018 20:30:32] - connect END
+[07 Feb 2018 20:30:32] - connect Return conn
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 20:30:32] - getAllUsersRecList END
+[07 Feb 2018 20:30:32] - displayPLSHomePage START
+[07 Feb 2018 20:30:32] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:30:32] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:32] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:30:34] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:30:34] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:34] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:30:34] - displayPLSHomePage END
+[07 Feb 2018 20:30:34] - processMainMenuOption START
+[07 Feb 2018 20:30:34] - processMainMenuOption varable in_mainMenuOption: 1
+[07 Feb 2018 20:30:34] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:30:34] - processMainMenuOption Calling method searchPageUI.displaySearchPage()
+[07 Feb 2018 20:30:34] - processMainMenuOption END
+[07 Feb 2018 20:30:34] - displaySearchPage START
+[07 Feb 2018 20:30:34] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:30:34] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:34] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:30:35] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:30:35] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:35] - displaySearchPage variable in_searchPageOption = 1
+[07 Feb 2018 20:30:35] - processSearchPageOption START
+[07 Feb 2018 20:30:35] - processSearchPageOption Calling method: searchPageUI.displaySearchByEmployeeID(userRec)
+[07 Feb 2018 20:30:35] - processSearchPageOption END
+[07 Feb 2018 20:30:35] - displaySearchByEmployeeID START
+[07 Feb 2018 20:30:35] - displaySearchByEmployeeID Calling method: utilityClass.scanAndValidateIntInput(999999)
+[07 Feb 2018 20:30:35] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:35] - scanAndValidateIntInput Variable maxChoice = 999999
+[07 Feb 2018 20:30:36] - scanAndValidateIntInput number to return: 999999
+[07 Feb 2018 20:30:36] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:36] - displaySearchByEmployeeID variable in_empIDToSearch = 121
+[07 Feb 2018 20:30:36] - displaySearchByEmployeeID Calling method: searchPageManager.searchByEmployeeID(userRec, in_empIDToSearch)
+[07 Feb 2018 20:30:36] - displaySearchByEmployeeID END
+[07 Feb 2018 20:30:36] - searchByEmployeeID START
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:30:36] - connect START
+[07 Feb 2018 20:30:36] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:30:36] - connect Variable user = newuser
+[07 Feb 2018 20:30:36] - connect Variable password = password123
+[07 Feb 2018 20:30:36] - connect END
+[07 Feb 2018 20:30:36] - connect Return conn
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList Connection Error encountered
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList Column 'bldgerror' not found.
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:30:36] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:30:36] - displaySearchResult START
+[07 Feb 2018 20:30:36] - displaySearchResult Calling method: utilityClass.scanAndValidateIntInput(2)
+[07 Feb 2018 20:30:36] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:36] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 20:30:38] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 20:30:38] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:38] - displaySearchResult variable in_searchResultAction = 1
+[07 Feb 2018 20:30:38] - displaySearchResult Calling method: searchPageManager.processSearchByEmployeeIDResultAction(userRec, in_searchResultAction);
+[07 Feb 2018 20:30:38] - displaySearchResult END
+[07 Feb 2018 20:30:38] - processSearchByEmployeeIDResultAction START
+[07 Feb 2018 20:30:38] - processSearchByEmployeeIDResultAction Calling method: searchPageUI.displaySearchPage(userRec)
+[07 Feb 2018 20:30:38] - processSearchByEmployeeIDResultAction END
+[07 Feb 2018 20:30:38] - displaySearchPage START
+[07 Feb 2018 20:30:38] - displaySearchPage Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:30:38] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:38] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:30:40] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:30:40] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:40] - displaySearchPage variable in_searchPageOption = 4
+[07 Feb 2018 20:30:40] - processSearchPageOption START
+[07 Feb 2018 20:30:40] - processSearchPageOption Calling method: homePageUI.displayPLSHomePage(userRec)
+[07 Feb 2018 20:30:40] - processSearchPageOption END
+[07 Feb 2018 20:30:40] - displayPLSHomePage START
+[07 Feb 2018 20:30:40] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 20:30:40] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:40] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 20:30:43] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 20:30:43] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:43] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 20:30:43] - displayPLSHomePage END
+[07 Feb 2018 20:30:43] - processMainMenuOption START
+[07 Feb 2018 20:30:43] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 20:30:43] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 20:30:43] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 20:30:43] - processMainMenuOption END
+[07 Feb 2018 20:30:43] - displayViewSeatplanMenu START
+[07 Feb 2018 20:30:43] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 20:30:43] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:43] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 20:30:47] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 20:30:47] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:47] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 20:30:47] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 20:30:47] - displayViewSeatplanMenu END
+[07 Feb 2018 20:30:47] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 20:30:47] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 20:30:47] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 20:30:47] - displayViewSeatPlanByLocation START
+[07 Feb 2018 20:30:47] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 20:30:49] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 20:30:49] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 20:30:49] - scanAndValidateIntInput START
+[07 Feb 2018 20:30:49] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 20:30:51] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 20:30:51] - scanAndValidateIntInput END
+[07 Feb 2018 20:30:51] - displayViewSeatPlanByLocation variable in_floorLevel = 2
+[07 Feb 2018 20:30:51] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 20:30:51] - displayViewSeatPlanByLocation END
+[07 Feb 2018 20:30:51] - processViewSeatPlanByLocation START
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList START
+[07 Feb 2018 20:30:51] - connect START
+[07 Feb 2018 20:30:51] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 20:30:51] - connect Variable user = newuser
+[07 Feb 2018 20:30:51] - connect Variable password = password123
+[07 Feb 2018 20:30:51] - connect END
+[07 Feb 2018 20:30:51] - connect Return conn
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList Connection Error encountered
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList Column 'bldgerror' not found.
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 20:30:51] - getEmployeeInfoLocRecList END
+[07 Feb 2018 20:30:51] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 20:30:51] - processViewSeatPlanByLocation END
+[07 Feb 2018 20:30:51] - displayViewSeatPlanResult START
+[07 Feb 2018 20:30:51] - processMainMenuOption -=Error encountered=-
+[07 Feb 2018 20:30:51] - processMainMenuOption Index: 0, Size: 0
+[07 Feb 2018 20:30:51] - displaySearchPage Calling method: searchPageManager.processSearchPageOption(userRec, in_searchPageOption)
+[07 Feb 2018 20:30:51] - displaySearchPage Calling method: searchPageManager.processSearchPageOption(userRec, in_searchPageOption)
+[07 Feb 2018 21:03:46] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:03:46] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:03:46] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:03:47] - displayWelcomePage END
+[07 Feb 2018 21:03:47] - displayLoginPage START
+[07 Feb 2018 21:03:47] - displayLoginPage Scanning username
+[07 Feb 2018 21:03:49] - displayLoginPage Variable inUsername = asd
+[07 Feb 2018 21:03:49] - displayLoginPage Scanning password
+[07 Feb 2018 21:03:50] - displayLoginPage Variable inPassword = asd
+[07 Feb 2018 21:03:50] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 21:03:50] - displayLoginPage END
+[07 Feb 2018 21:03:50] - processLoginPage START
+[07 Feb 2018 21:03:50] - getAllUsersRecList START
+[07 Feb 2018 21:03:50] - connect START
+[07 Feb 2018 21:03:50] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:03:50] - connect Variable user = newuser
+[07 Feb 2018 21:03:50] - connect Variable password = password123
+[07 Feb 2018 21:03:50] - connect END
+[07 Feb 2018 21:03:50] - connect Return conn
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 21:03:50] - getAllUsersRecList END
+[07 Feb 2018 21:03:50] - processLoginPage Login failed!
+[07 Feb 2018 21:03:50] - processLoginPage Attempt(s): 1/3
+[07 Feb 2018 21:03:50] - displayLoginPage START
+[07 Feb 2018 21:03:50] - displayLoginPage Scanning username
+[07 Feb 2018 21:03:54] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 21:03:54] - displayLoginPage Scanning password
+[07 Feb 2018 21:03:56] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 21:03:56] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 21:03:56] - displayLoginPage END
+[07 Feb 2018 21:03:56] - processLoginPage START
+[07 Feb 2018 21:03:56] - getAllUsersRecList START
+[07 Feb 2018 21:03:56] - connect START
+[07 Feb 2018 21:03:56] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:03:56] - connect Variable user = newuser
+[07 Feb 2018 21:03:56] - connect Variable password = password123
+[07 Feb 2018 21:03:56] - connect END
+[07 Feb 2018 21:03:56] - connect Return conn
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 21:03:56] - getAllUsersRecList END
+[07 Feb 2018 21:03:56] - displayPLSHomePage START
+[07 Feb 2018 21:03:56] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 21:03:56] - scanAndValidateIntInput START
+[07 Feb 2018 21:03:56] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 21:03:59] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 21:03:59] - scanAndValidateIntInput END
+[07 Feb 2018 21:03:59] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 21:03:59] - displayPLSHomePage END
+[07 Feb 2018 21:03:59] - processMainMenuOption START
+[07 Feb 2018 21:03:59] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 21:03:59] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 21:03:59] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 21:03:59] - processMainMenuOption END
+[07 Feb 2018 21:03:59] - displayViewSeatplanMenu START
+[07 Feb 2018 21:03:59] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 21:03:59] - scanAndValidateIntInput START
+[07 Feb 2018 21:03:59] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 21:04:00] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 21:04:00] - scanAndValidateIntInput END
+[07 Feb 2018 21:04:00] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 21:04:00] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 21:04:00] - displayViewSeatplanMenu END
+[07 Feb 2018 21:04:00] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 21:04:00] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 21:04:00] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 21:04:00] - displayViewSeatPlanByLocation START
+[07 Feb 2018 21:04:00] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 21:04:01] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 21:04:01] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 21:04:01] - scanAndValidateIntInput START
+[07 Feb 2018 21:04:01] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 21:04:03] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 21:04:03] - scanAndValidateIntInput END
+[07 Feb 2018 21:04:03] - displayViewSeatPlanByLocation variable in_floorLevel = 3
+[07 Feb 2018 21:04:03] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 21:04:03] - displayViewSeatPlanByLocation END
+[07 Feb 2018 21:04:03] - processViewSeatPlanByLocation START
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList START
+[07 Feb 2018 21:04:03] - connect START
+[07 Feb 2018 21:04:03] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:04:03] - connect Variable user = newuser
+[07 Feb 2018 21:04:03] - connect Variable password = password123
+[07 Feb 2018 21:04:03] - connect END
+[07 Feb 2018 21:04:03] - connect Return conn
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList Connection Error encountered
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList Column 'bldgerror' not found.
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 21:04:03] - getEmployeeInfoLocRecList END
+[07 Feb 2018 21:04:03] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 21:04:03] - processViewSeatPlanByLocation END
+[07 Feb 2018 21:04:03] - displayViewSeatPlanResult START
+[07 Feb 2018 21:04:03] - processMainMenuOption -=Error encountered=-
+[07 Feb 2018 21:04:03] - processMainMenuOption Index: 0, Size: 0
+[07 Feb 2018 21:04:03] - processLoginPage END
+[07 Feb 2018 21:05:50] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:05:50] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:05:50] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:05:51] - displayWelcomePage END
+[07 Feb 2018 21:05:51] - displayLoginPage START
+[07 Feb 2018 21:05:51] - displayLoginPage Scanning username
+[07 Feb 2018 21:05:54] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 21:05:54] - displayLoginPage Scanning password
+[07 Feb 2018 21:05:56] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 21:05:56] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 21:05:56] - displayLoginPage END
+[07 Feb 2018 21:05:56] - processLoginPage START
+[07 Feb 2018 21:05:56] - getAllUsersRecList START
+[07 Feb 2018 21:05:56] - connect START
+[07 Feb 2018 21:05:56] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:05:56] - connect Variable user = newuser
+[07 Feb 2018 21:05:56] - connect Variable password = password123
+[07 Feb 2018 21:05:56] - connect END
+[07 Feb 2018 21:05:56] - connect Return conn
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 21:05:56] - getAllUsersRecList END
+[07 Feb 2018 21:05:56] - displayPLSHomePage START
+[07 Feb 2018 21:05:56] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 21:05:56] - scanAndValidateIntInput START
+[07 Feb 2018 21:05:56] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 21:05:57] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 21:05:57] - scanAndValidateIntInput END
+[07 Feb 2018 21:05:57] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 21:05:57] - displayPLSHomePage END
+[07 Feb 2018 21:05:57] - processMainMenuOption START
+[07 Feb 2018 21:05:57] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 21:05:57] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 21:05:57] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 21:05:57] - processMainMenuOption END
+[07 Feb 2018 21:05:57] - displayViewSeatplanMenu START
+[07 Feb 2018 21:05:57] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 21:05:57] - scanAndValidateIntInput START
+[07 Feb 2018 21:05:57] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 21:05:59] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 21:05:59] - scanAndValidateIntInput END
+[07 Feb 2018 21:05:59] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 2
+[07 Feb 2018 21:05:59] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 21:05:59] - displayViewSeatplanMenu END
+[07 Feb 2018 21:05:59] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 21:05:59] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByQuadrant(userRec)
+[07 Feb 2018 21:05:59] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 21:05:59] - displayViewSeatPlanByQuadrant START
+[07 Feb 2018 21:05:59] - displayViewSeatPlanByQuadrant Scanning Location to search
+[07 Feb 2018 21:06:01] - displayViewSeatPlanByQuadrant Scanning Floor to search
+[07 Feb 2018 21:06:01] - scanAndValidateIntInput START
+[07 Feb 2018 21:06:01] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 21:06:02] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 21:06:02] - scanAndValidateIntInput END
+[07 Feb 2018 21:06:04] - displayViewSeatPlanByQuadrant Calling method: viewSeatPlanPageManager.processViewSeatPlanByQuadrant(userRec, in_location, in_floorLevel, in_quadrant)
+[07 Feb 2018 21:06:04] - displayViewSeatPlanByQuadrant END
+[07 Feb 2018 21:06:04] - processViewSeatPlanByQuadrant START
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList START
+[07 Feb 2018 21:06:04] - connect START
+[07 Feb 2018 21:06:04] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:06:04] - connect Variable user = newuser
+[07 Feb 2018 21:06:04] - connect Variable password = password123
+[07 Feb 2018 21:06:04] - connect END
+[07 Feb 2018 21:06:04] - connect Return conn
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 21:06:04] - getEmployeeInfoLocRecList END
+[07 Feb 2018 21:06:04] - processViewSeatPlanByQuadrant Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 21:06:04] - processViewSeatPlanByQuadrant END
+[07 Feb 2018 21:06:04] - displayViewSeatPlanResult START
+[07 Feb 2018 21:06:04] - processMainMenuOption -=Error encountered=-
+[07 Feb 2018 21:06:04] - processMainMenuOption Index: 0, Size: 0
+[07 Feb 2018 21:08:12] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:08:12] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:08:12] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:08:13] - displayWelcomePage END
+[07 Feb 2018 21:08:13] - displayLoginPage START
+[07 Feb 2018 21:08:13] - displayLoginPage Scanning username
+[07 Feb 2018 21:12:05] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:12:05] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:12:05] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:12:07] - displayWelcomePage END
+[07 Feb 2018 21:12:07] - displayLoginPage START
+[07 Feb 2018 21:12:07] - displayLoginPage Scanning username
+[07 Feb 2018 21:12:09] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 21:12:09] - displayLoginPage Scanning password
+[07 Feb 2018 21:12:11] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 21:12:11] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 21:12:11] - displayLoginPage END
+[07 Feb 2018 21:12:11] - processLoginPage START
+[07 Feb 2018 21:12:11] - getAllUsersRecList START
+[07 Feb 2018 21:12:11] - connect START
+[07 Feb 2018 21:12:11] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:12:11] - connect Variable user = newuser
+[07 Feb 2018 21:12:11] - connect Variable password = password123
+[07 Feb 2018 21:12:11] - connect END
+[07 Feb 2018 21:12:11] - connect Return conn
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 21:12:11] - getAllUsersRecList END
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - processLoginPage Comparing inputted Username/Password to database
+[07 Feb 2018 21:12:11] - displayPLSHomePage START
+[07 Feb 2018 21:12:11] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 21:12:11] - scanAndValidateIntInput START
+[07 Feb 2018 21:12:11] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 21:12:13] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 21:12:13] - scanAndValidateIntInput END
+[07 Feb 2018 21:12:13] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 21:12:13] - displayPLSHomePage END
+[07 Feb 2018 21:12:13] - processMainMenuOption START
+[07 Feb 2018 21:12:13] - processMainMenuOption varable in_mainMenuOption: 2
+[07 Feb 2018 21:12:13] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 21:12:13] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 21:12:13] - processMainMenuOption END
+[07 Feb 2018 21:12:13] - displayViewSeatplanMenu START
+[07 Feb 2018 21:12:13] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 21:12:13] - scanAndValidateIntInput START
+[07 Feb 2018 21:12:13] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 21:12:18] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 21:12:18] - scanAndValidateIntInput END
+[07 Feb 2018 21:12:18] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 2
+[07 Feb 2018 21:12:18] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 21:12:18] - displayViewSeatplanMenu END
+[07 Feb 2018 21:12:18] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 21:12:18] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByQuadrant(userRec)
+[07 Feb 2018 21:12:18] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 21:12:18] - displayViewSeatPlanByQuadrant START
+[07 Feb 2018 21:12:18] - displayViewSeatPlanByQuadrant Scanning Location to search
+[07 Feb 2018 21:12:20] - displayViewSeatPlanByQuadrant Scanning Floor to search
+[07 Feb 2018 21:12:20] - scanAndValidateIntInput START
+[07 Feb 2018 21:12:20] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 21:12:21] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 21:12:21] - scanAndValidateIntInput END
+[07 Feb 2018 21:12:27] - displayViewSeatPlanByQuadrant Calling method: viewSeatPlanPageManager.processViewSeatPlanByQuadrant(userRec, in_location, in_floorLevel, in_quadrant)
+[07 Feb 2018 21:12:27] - displayViewSeatPlanByQuadrant END
+[07 Feb 2018 21:12:27] - processViewSeatPlanByQuadrant START
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList START
+[07 Feb 2018 21:12:27] - connect START
+[07 Feb 2018 21:12:27] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:12:27] - connect Variable user = newuser
+[07 Feb 2018 21:12:27] - connect Variable password = password123
+[07 Feb 2018 21:12:27] - connect END
+[07 Feb 2018 21:12:27] - connect Return conn
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 21:12:27] - getEmployeeInfoLocRecList END
+[07 Feb 2018 21:12:27] - processViewSeatPlanByQuadrant Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 21:12:27] - processViewSeatPlanByQuadrant END
+[07 Feb 2018 21:12:27] - displayViewSeatPlanResult START
+[07 Feb 2018 21:12:27] - processMainMenuOption -=Error encountered=-
+[07 Feb 2018 21:12:27] - processMainMenuOption Index: 0, Size: 0
+[07 Feb 2018 21:15:36] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:15:36] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:15:36] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:31:55] - displayWelcomePage ======================================================================
+[07 Feb 2018 21:31:55] - displayWelcomePage START OF PROGRAM
+[07 Feb 2018 21:31:55] - displayWelcomePage Calling method: welcomeAndLoginPageManager.pressEnterKeyToContinue()
+[07 Feb 2018 21:31:57] - displayWelcomePage END
+[07 Feb 2018 21:31:57] - displayLoginPage START
+[07 Feb 2018 21:31:57] - displayLoginPage Scanning username
+[07 Feb 2018 21:32:00] - displayLoginPage Variable inUsername = abe.dalit
+[07 Feb 2018 21:32:00] - displayLoginPage Scanning password
+[07 Feb 2018 21:32:04] - displayLoginPage Variable inPassword = password123
+[07 Feb 2018 21:32:04] - displayLoginPage Calling method: welcomeAndLoginPageManager.processLoginPage(inUsername, inPassword)
+[07 Feb 2018 21:32:04] - displayLoginPage END
+[07 Feb 2018 21:32:04] - processLoginPage START
+[07 Feb 2018 21:32:04] - getAllUsersRecList START
+[07 Feb 2018 21:32:04] - connect START
+[07 Feb 2018 21:32:04] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:32:04] - connect Variable user = newuser
+[07 Feb 2018 21:32:04] - connect Variable password = password123
+[07 Feb 2018 21:32:04] - connect END
+[07 Feb 2018 21:32:04] - connect Return conn
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Adding userRecord to usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList Return usersRecList
+[07 Feb 2018 21:32:04] - getAllUsersRecList END
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: FAILED
+[07 Feb 2018 21:32:04] - processLoginPage Comparing inputted Username/Password to database: SUCCESSFUL
+[07 Feb 2018 21:32:04] - displayPLSHomePage START
+[07 Feb 2018 21:32:04] - displayPLSHomePage Calling method: utilityClass.scanAndValidateIntInput(3)
+[07 Feb 2018 21:32:04] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:04] - scanAndValidateIntInput Variable maxChoice = 3
+[07 Feb 2018 21:32:06] - scanAndValidateIntInput number to return: 3
+[07 Feb 2018 21:32:06] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:06] - displayPLSHomePage Calling method: homePageManager.processMainMenuOption(userRec, in_mainMenuOption)
+[07 Feb 2018 21:32:06] - displayPLSHomePage END
+[07 Feb 2018 21:32:06] - processMainMenuOption START
+[07 Feb 2018 21:32:06] - processMainMenuOption variable in_mainMenuOption: 2
+[07 Feb 2018 21:32:06] - processMainMenuOption Process user's option in main menu
+[07 Feb 2018 21:32:06] - processMainMenuOption Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 21:32:06] - processMainMenuOption END
+[07 Feb 2018 21:32:06] - displayViewSeatplanMenu START
+[07 Feb 2018 21:32:06] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 21:32:06] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:06] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 21:32:07] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 21:32:07] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:07] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 21:32:07] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 21:32:07] - displayViewSeatplanMenu END
+[07 Feb 2018 21:32:07] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 21:32:07] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 21:32:07] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 21:32:07] - displayViewSeatPlanByLocation START
+[07 Feb 2018 21:32:07] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 21:32:09] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 21:32:09] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 21:32:09] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:09] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 21:32:11] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 21:32:11] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:11] - displayViewSeatPlanByLocation variable in_floorLevel = 3
+[07 Feb 2018 21:32:11] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 21:32:11] - displayViewSeatPlanByLocation END
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation START
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList START
+[07 Feb 2018 21:32:11] - connect START
+[07 Feb 2018 21:32:11] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:32:11] - connect Variable user = newuser
+[07 Feb 2018 21:32:11] - connect Variable password = password123
+[07 Feb 2018 21:32:11] - connect END
+[07 Feb 2018 21:32:11] - connect Return conn
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 21:32:11] - getEmployeeInfoLocRecList END
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Adding employeeRec to searchedEmpInfoLocRecords
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 21:32:11] - processViewSeatPlanByLocation END
+[07 Feb 2018 21:32:11] - displayViewSeatPlanResult START
+[07 Feb 2018 21:32:11] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:11] - scanAndValidateIntInput Variable maxChoice = 2
+[07 Feb 2018 21:32:13] - scanAndValidateIntInput number to return: 2
+[07 Feb 2018 21:32:13] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:13] - displayViewSeatPlanResult Variable in_viewSeatPlanResult = 1
+[07 Feb 2018 21:32:13] - displayViewSeatPlanResult END
+[07 Feb 2018 21:32:13] - displayViewSeatPlanResult Calling method: viewSeatPlanPageManager.processViewSeatPlanResult(userRec, in_viewSeatPlanResult)
+[07 Feb 2018 21:32:13] - processViewSeatPlanResult START
+[07 Feb 2018 21:32:13] - processViewSeatPlanResult Calling method viewSeatPlanPageUI.displayViewSeatplanMenu(userRec)
+[07 Feb 2018 21:32:13] - processViewSeatPlanResult END
+[07 Feb 2018 21:32:13] - displayViewSeatplanMenu START
+[07 Feb 2018 21:32:13] - displayViewSeatplanMenu Calling method: utilityClass.scanAndValidateIntInput(4)
+[07 Feb 2018 21:32:13] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:13] - scanAndValidateIntInput Variable maxChoice = 4
+[07 Feb 2018 21:32:15] - scanAndValidateIntInput number to return: 4
+[07 Feb 2018 21:32:15] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:15] - displayViewSeatplanMenu variable in_viewSeatPlanPageMenuOption = 1
+[07 Feb 2018 21:32:15] - displayViewSeatplanMenu Calling method: viewSeatPlanPageManager.processViewSeaPlanPageMenuOption(userRec, in_viewSeatPlanPageMenuOption)
+[07 Feb 2018 21:32:15] - displayViewSeatplanMenu END
+[07 Feb 2018 21:32:15] - processViewSeaPlanPageMenuOption START
+[07 Feb 2018 21:32:15] - processViewSeaPlanPageMenuOption Calling method viewSeatPlanPageUI.displayViewSeatPlanByLocation(userRec)
+[07 Feb 2018 21:32:15] - processViewSeaPlanPageMenuOption END
+[07 Feb 2018 21:32:15] - displayViewSeatPlanByLocation START
+[07 Feb 2018 21:32:15] - displayViewSeatPlanByLocation Scanning Location to search
+[07 Feb 2018 21:32:16] - displayViewSeatPlanByLocation Scanning Floor to search
+[07 Feb 2018 21:32:16] - displayViewSeatPlanByLocation Calling method: utilityClass.scanAndValidateIntInput(12)
+[07 Feb 2018 21:32:16] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:16] - scanAndValidateIntInput Variable maxChoice = 12
+[07 Feb 2018 21:32:19] - scanAndValidateIntInput number to return: 12
+[07 Feb 2018 21:32:19] - scanAndValidateIntInput END
+[07 Feb 2018 21:32:19] - displayViewSeatPlanByLocation variable in_floorLevel = 4
+[07 Feb 2018 21:32:19] - displayViewSeatPlanByLocation Calling method: viewSeatPlanPageManager.processViewSeatPlanByLocation(userRec, in_location, in_floorLevel)
+[07 Feb 2018 21:32:19] - displayViewSeatPlanByLocation END
+[07 Feb 2018 21:32:19] - processViewSeatPlanByLocation START
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList START
+[07 Feb 2018 21:32:19] - connect START
+[07 Feb 2018 21:32:19] - connect Variable db = jdbc:mysql://172.26.83.193:3306/plsdb
+[07 Feb 2018 21:32:19] - connect Variable user = newuser
+[07 Feb 2018 21:32:19] - connect Variable password = password123
+[07 Feb 2018 21:32:19] - connect END
+[07 Feb 2018 21:32:19] - connect Return conn
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Adding employeeInfoLocRecord to employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList Return employeesInfoLocRecList
+[07 Feb 2018 21:32:19] - getEmployeeInfoLocRecList END
+[07 Feb 2018 21:32:19] - processViewSeatPlanByLocation Calling method viewSeatPlanPageUI.displayViewSeatPlanResult(userRec, searchedEmpInfoLocRecords)
+[07 Feb 2018 21:32:19] - processViewSeatPlanByLocation END
+[07 Feb 2018 21:32:19] - displayViewSeatPlanResult START
+[07 Feb 2018 21:32:19] - scanAndValidateIntInput START
+[07 Feb 2018 21:32:19] - scanAndValidateIntInput Variable maxChoice = 2
